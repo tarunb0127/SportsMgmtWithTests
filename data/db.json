@@ -1,0 +1,21 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "userName": "playerOne",
+      "email": "player1@example.com",
+      "password": "pass1234"
+    }
+  ],
+  "equipment": [
+    {
+      "id": "1",
+      "equipmentName": "Football",
+      "category": "Ball",
+      "description": "Official size 5 football for outdoor matches",
+      "stock": 20,
+      "price": 50
+    }
+  ],
+  "orders": []
+}
