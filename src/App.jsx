@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route, NavLink } from "react-router-do
 import EquipmentForm from "./Components/EquipmentForm";
 // import UserForm from "./components/UserForm";
 import OrderForm from "./Components/OrderForm";
+import AuthForm from "./Components/AuthForm";
 
 export default function App() {
   return (
@@ -29,7 +30,7 @@ export default function App() {
               <ul className="navbar-nav me-auto">
                 <li className="nav-item">
                   <NavLink
-                    to="/"
+                    to="/equipments"
                     className={({ isActive }) =>
                       `nav-link ${isActive ? "active fw-semibold" : ""}`
                     }
@@ -57,8 +58,10 @@ export default function App() {
         {/* Page Content */}
         <div className="container mt-4">
           <Routes>
-            <Route path="/" element={<EquipmentForm />} />
+            <Route path="/equipments" element={<EquipmentForm />} />
             <Route path="/orders" element={<OrderForm />} />
+            <Route path="/" element={<AuthForm />} />
+
           </Routes>
         </div>
       </div>

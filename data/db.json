@@ -5,6 +5,13 @@
       "userName": "playerOne",
       "email": "player1@example.com",
       "password": "pass1234"
+    },
+    {
+      "id": "18be",
+      "username": "admin",
+      "email": "admin@gmail.com",
+      "password": "admin@12345",
+      "role": "admin"
     }
   ],
   "equipment": [
